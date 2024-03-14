@@ -54,6 +54,9 @@ button {
 }
 
 .popup-modal.show {
+  transition: 
+    opacity 1s,
+    margin-bottom 1.5s;
   opacity: 100%;
   pointer-events: all;
 }
