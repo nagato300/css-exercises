@@ -15,19 +15,13 @@ body {
   padding: 8px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.left-wrapper {
+.left-wrapper, .right-wrapper {
   display: flex;
   gap: 16px;
-  flex: auto;
   align-items: center;
-}
-
-.right-wrapper {
-  display: flex;
-  gap: 16px;
-  justify-content: flex-end;
 }
 
 .profile-image {
